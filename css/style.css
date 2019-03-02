@@ -34,6 +34,12 @@ body{
 	min-height: 400px;
 	margin: 96px auto 32px;
 	background: url(../img/guillermo.png) no-repeat 100% 0%;
+	transition: background 1s ease-in-out;
+}
+
+#main:hover{
+
+	background-image: url(../img/guillermo-color.png);
 }
 
 h1{
